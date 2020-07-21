@@ -1,0 +1,75 @@
+body{
+    background-color: #333;
+}
+
+
+.bosluk{
+    height: 200px;
+}
+.bosluk2{
+    height: 75px;
+}
+
+.bot-resim{
+    border-radius: 100%;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    padding: 10px;
+}
+.bot-resim-arka{
+    border-radius: 100%;
+    width: 400px;
+    height: 400px;
+    background-color: #393939;
+}
+
+#dis_bolme { 
+width: 500px;     
+height:250px;               
+}
+    
+    
+.ic_bolme{    
+float:left;
+}
+
+
+.atlama{
+padding: 60px;
+max-width: 600px;
+}
+
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+color: white;
+text-align: center;
+font-size: 30px;
+}
+    
+
+
+/*Scroll bar kısmı*/
+::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px transparent; 
+    border-radius: 10px;
+  }
+   
+
+  ::-webkit-scrollbar-thumb {
+    background: grey; 
+    border-radius: 100px;
+  }
+  
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
